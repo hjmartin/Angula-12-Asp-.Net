@@ -7,7 +7,7 @@ namespace APP_Directiva.Controllers
     [ApiController]
     public class HomeController : ControllerBase
     {
-
+        private readonly IHttpContextAccessor _contextAccessor;
         public HomeController()
         {
             
